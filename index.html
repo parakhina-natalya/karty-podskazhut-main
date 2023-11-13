@@ -58,13 +58,10 @@
     </div>
     <figure class="content__figure">
       <picture>
-        <source srcset="./images/cards-1x.avif" type="image/avif">
-        <source srcset="./images/cards-1x.webp" type="image/webp">
-        <source srcset="./images/cards-1x.png" type="image/png">
-        <source srcset="./images/cards-2x.avif" type="image/avif">
-        <source srcset="./images/cards-2x.webp" type="image/webp">
-        <source srcset="./images/cards-2x.png" type="image/png">
-        <img class="content__picture" src="./images/cards-1x.png" loading="lazy"
+        <source srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x" type="image/avif">
+        <source srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x" type="image/webp">
+        <img class="content__picture" src="./images/cards-1x.png"
+          srcset="./images/cards-1x.png 1x, ./images/cards-2x.png 2x" type="image/webp" loading="lazy"
           alt="На столе, рядом с записной книжкой, цветком в горшке, лежит карточка с надписью: верю в тебя настоящего">
       </picture>
       <figcaption class="content__picture-caption">
